@@ -33,6 +33,10 @@ print( int(b) + 5 )
 print('#5')
 # split() : 입력받은 값을 공백을 기준으로 분리
 x, y, z = input('정수 3개를 입력하세요 : ').split()
+x = int(x)
+y = int(y)
+z = int(z)
+
 print('최댓값 : {}'.format( max(x,y,z) ))
 
 print('#6')
